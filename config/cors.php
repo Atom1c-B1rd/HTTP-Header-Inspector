@@ -20,8 +20,9 @@ return [
     'allowed_methods' => ['*'],
 
     'allowed_origins' => [
+    'https://atom1c-b1rd.github.io',
     env('FRONTEND_URL', 'http://localhost:3000'),
-],
+    ],
 
     'allowed_origins_patterns' => [],
 
